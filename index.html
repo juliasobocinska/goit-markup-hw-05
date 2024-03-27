@@ -419,7 +419,7 @@
         <div class="modal-box">
             <button type="button" class="button-close" data-modal-close>
                 <svg class="button-close-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close"></use>
+                    <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
             </button>
             <p class="paragraph-icon">Leave your contacts and we will call you back</p>
@@ -429,7 +429,7 @@
                     <div class="modal-label">
                         <input id="user-name" name="user-name" type="text" class="input-modal" required>
                         <svg class="modal-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-person"></use>
+                            <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
                     </div>
                 </div>
@@ -455,11 +455,15 @@
                     <label for="user-comment" class="label-modal">Comment</label>
                     <textarea id="user-comment" name="user-comment" placeholder="Text-input" class="text-area-modal"></textarea>
                 </div>
-                <div classs="modal-privacy">
+                <div class="modal-privacy">
+                    <label class="privacy-modal" for="user-privacy"></label>
+                    <div class="checkbox"> 
                     <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="visually-hidden modal-check" required>
-                    <label class="privacy-modal" for="user-privacy">
-                        <span>I accept the terms and conditions of the<a href="link-modal">Privacy Policy</a></span>
-                    </label>
+                    <svg class="modal-checkbox" width="16" height="16">
+                        <use href="./images/icons.svg#icon-checkbox"></use>
+                    </svg>
+                   <span class="policy"> I accept the terms and conditions of the <a href class="link-policy">Privacy Policy</a></span>
+                    </div>
                 </div>
                 <button class="button-modal">Send</button>
             </form>
