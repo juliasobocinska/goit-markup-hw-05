@@ -737,7 +737,7 @@ ul > .list {
 		justify-content: center;
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
-	.modal-check:checked + span {
+	.modal-check:checked + .privacy {
 		fill: var(--icon-color);
 	}
 	.modal-check-text {
