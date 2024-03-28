@@ -27,7 +27,6 @@ body {
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: 2%;
 }
 img {
 	max-width: 100%;
@@ -37,6 +36,7 @@ img {
 ul {
 	padding: 0;
 	margin: 0;
+	list-style: none;
 }
 .container li {
 	text-decoration: none;
@@ -48,7 +48,6 @@ ul {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 2%;
-	text-decoration: none;
 }
 .container {
 	width: 1158px;
@@ -126,7 +125,7 @@ h1 {
 	color: #4d5ae5;
 	font-weight: 700;
 	font-size: 18px;
-	letter-spacing: 3%;
+	letter-spacing: 0.03em;
 	line-height: 1.17;
 	text-transform: uppercase;
 }
@@ -178,12 +177,8 @@ h1 {
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 2%;
-	display: flex;
 	padding-bottom: 48px;
 	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
 	width: 496px;
 }
 .button {
@@ -416,24 +411,17 @@ ul > .list {
 	padding: 100px 0;
 }
 .textfooter {
-	font-family: "Roboto", sans-serif;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 2%;
 	color: #f4f4fd;
-	text-align: left;
-	width: 264px;
+	max-width: 264px;
+	margin-top: 16px;
 }
 .logo-footer {
 	color: #f4f4fd;
 }
 .container-footer {
-	width: 264px;
-	height: 112px;
-	margin-left: 156px;
-	margin-bottom: 100px;
-	margin-right: 1020px;
 	display: flex;
 	align-items: baseline;
 }
@@ -493,9 +481,6 @@ ul > .list {
 .form {
 		display: flex;
 		gap: 24px;
-}
-.icon-media-form {
-	margin-left: 16px;
 }
 	/*.form-input {
 		border-radius: 4px;
@@ -608,7 +593,6 @@ ul > .list {
 		color: #8e8f99;
 		display: block;
 		margin-bottom: 4px;
-		margin-top: 16px;
 	}
 	.paragraph-icon {
 		font-family: Roboto;
@@ -712,6 +696,7 @@ ul > .list {
 	}
 	.modal-check-link {
 		color: var(--link-color);
+		text-decoration: underline;
 	}
 	.modal-privacy {
 		margin-bottom: 24px;
